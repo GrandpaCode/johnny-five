@@ -1,3 +1,33 @@
+<#
+.SYNOPSIS
+    Cleans and converts AI-generated or markdown-formatted text into human-friendly plain text.
+    Strips emojis, non-ASCII characters, and normalizes bullet and numbered list formatting.
+
+.DESCRIPTION
+    This script was developed collaboratively by [Your Name] and Microsoft Copilot,
+    an AI companion designed to assist with automation, formatting, and language tasks.
+
+    It was created during an in-depth development session focused on recipe formatting,
+    clipboard cleanup, and layout restoration for human-readable use.
+
+.AUTHOR
+    GrandpaCode
+    Microsoft Copilot (https://copilot.microsoft.com)
+
+.LICENSE
+    Open Source – feel free to modify, share, and improve!
+    Attribution appreciated when reused.
+
+.VERSION
+    1.0.0
+
+.NOTES
+    Publish Date: 7/7/2025
+    Original Concept by: GrandpaCode
+    AI Assistance & Formatting Logic: Microsoft Copilot
+#>
+
+
 function Convert-ToPlainText {
     param (
         [string]$InputText
